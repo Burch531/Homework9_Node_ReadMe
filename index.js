@@ -19,52 +19,71 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Table of Contents for the project',
-        name: 'contents',
-    },
-    {
-        type: 'input',
-        message: 'Installation',
+        message: 'Please provide installation instructions',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Usage',
+        message: 'Please provide project usage',
         name: 'usage',
     },
     {
         type: 'list',
         message: 'License',
-        choices: ['MIT'],
+        choices: ['MIT', 'Apache 2.0', 'GNU GPLv3'],
         name: 'license',
     },
     {
         type: 'input',
-        message: 'Contributing',
-        name: 'contributing',
+        message: 'Please provide who is contributing',
+        name: 'contributors',
     },
     {
         type: 'input',
-        message: 'Test',
+        message: 'Please provide the project test',
         name: 'test',
     },
     {
         type: 'input',
         message: 'Enter your github username', 
-        name: 'questions',
+        name: 'username',
     },
     {
-        type: 'input',
-        message: 'Enter your email',
-        name: 'questions',
+        type: "input",
+        name: "repo",
+        message: "What is your repo link?"
     },
+     
+    {
+        type: 'input',
+        message: 'Provide email for questions',
+        name: 'email',
+    },
+   
 ];
-then((response) => {
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-function init() {}
 
-// Function call to initialize app
+function init() {
+    inquirer
+    .prompt(questions)
+    .then(function(data){
+        const getInfo = `https://api.github.com/users/${data.username}`;
+
+        axios.get(getInfo).then(function(res) {
+          
+            
+          fs.writeFile("READMECREATED.md", generate(data), function(err) {
+            if (err) {
+              throw err;
+            };
+    
+            console.log("New README file created with success!");
+          });
+        });
+
+});
+}
+
+// //Function call to initialize app
 init();
+
