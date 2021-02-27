@@ -25,7 +25,6 @@ ${data.contributors}
 ## Test
 ${data.test}
 ## Repository
-${data.username}
 ${data.repo}
 ## Questions
 - please send any questions to ${data.email}
