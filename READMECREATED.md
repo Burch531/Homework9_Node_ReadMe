@@ -1,8 +1,8 @@
-# g
+# readme
  
 
 ## Description 
-g
+readme
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
@@ -13,19 +13,19 @@ g
 - [Repository Link](#Repository)
 - [GitHub Info](#GitHub) 
 ## Installation
-        g
+        install
 ## Usage
-g
-## Licence
+use
+## License
 MIT
 ## Contributors
-g
+jamie
 ## Test
-g
+test
 ## Repository
 Burch531
-github
+https://github.com/Burch531/Homework9_Node_ReadMe
 ## Questions
-- [please send any questions to ] jlkaline@me.com
+- please send any questions to jlkaline@me.com
 ## GitHub
-[undefined](https://github.com/Burch531)
+(https://github.com/Burch531)

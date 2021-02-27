@@ -18,7 +18,7 @@ ${data.description}
         ${data.installation}
 ## Usage
 ${data.usage}
-## Licence
+## License
 ${data.license}
 ## Contributors
 ${data.contributors}
