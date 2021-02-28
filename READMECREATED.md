@@ -1,31 +1,31 @@
-# readme
+# ReadMe File Generator
  
 
 ## Description 
-readme
+The ReadMe Generator will allow the user to quickly and efficiently create a good ReadMe file to go with any project they are working on.
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributors](#Contributors)
 - [Test](#Test)
 - [Repository Link](#Repository)
+- [Questions](#Questions )
 - [GitHub Info](#GitHub) 
 ## Installation
-        install
+ -To install this please use install npm
 ## Usage
-use
+Use this to create a professional readme file
 ## License
 MIT
 ## Contributors
-jamie
+Here is a list of anyone who has contributed to this Jamie Burchell
 ## Test
-test
+npm test
 ## Repository
-Burch531
 https://github.com/Burch531/Homework9_Node_ReadMe
 ## Questions
-- please send any questions to jlkaline@me.com
+- Please send any questions to jburchell531@gmail.com
 ## GitHub
 (https://github.com/Burch531)
