@@ -9,5 +9,5 @@ Screenshot of a ReadMe file that is created
 ![Readme_file_2](./assets/readme2.PNG)
 
 
-Video walkthrough of file being created
-![Video_walkthrough_of_Readme_file](./assets/Readmevideo.mp4)
+Link for Demo 
+https://user-images.githubusercontent.com/73437394/109404703-90d4eb80-7936-11eb-8f12-87e30772dd2c.mp4
