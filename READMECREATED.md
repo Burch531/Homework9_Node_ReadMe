@@ -1,8 +1,8 @@
-# ReadMe File Generator
+# ReadMe Generator
  
 
 ## Description 
-The ReadMe Generator will allow the user to quickly and efficiently create a good ReadMe file to go with any project they are working on.
+ The ReadMe Generator will allow the user to quickly and efficiently create a good ReadMe file to go with any project they are working on.
 ## Table of contents
 - [Description](#Description)
 - [Installation](#Installation)
