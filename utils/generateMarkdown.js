@@ -9,25 +9,26 @@ ${data.description}
 - [Description](#Description)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Licence](#Licence)
+- [License](#License)
 - [Contributors](#Contributors)
 - [Test](#Test)
 - [Repository Link](#Repository)
+- [Questions](#Questions )
 - [GitHub Info](#GitHub) 
 ## Installation
-        ${data.installation}
+ -To install this please use ${data.installation}
 ## Usage
 ${data.usage}
 ## License
 ${data.license}
 ## Contributors
-${data.contributors}
+Here is a list of anyone who has contributed to this ${data.contributors}
 ## Test
 ${data.test}
 ## Repository
 ${data.repo}
 ## Questions
-- please send any questions to ${data.email}
+- Please send any questions to ${data.email}
 ## GitHub
 (https://github.com/${data.username})
 `;
