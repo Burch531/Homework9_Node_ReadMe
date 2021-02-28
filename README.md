@@ -10,4 +10,4 @@ Screenshot of a ReadMe file that is created
 
 
 Video walkthrough of file being created
-![Video_walkthrough_of_Readme_file](./assets/Readmevideo.webm)
+![Video_walkthrough_of_Readme_file](./assets/Readmevideo.mp4)
